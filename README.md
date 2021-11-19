@@ -1,4 +1,4 @@
-# morning-blog
+# go-blog
 基于go语言实现的一个博客demo，实现了对文章的CURD操作，仅适用于初学了解go的开发和框架学习。使用的框架：gin，gorm。
 
 ```shell
