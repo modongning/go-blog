@@ -2,8 +2,6 @@ module com.otoomo.morningblog-go
 
 go 1.17
 
-replace github.com/modongning/gocommon v1.0.0 => ../gocommon
-
 require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/jinzhu/gorm v1.9.16
