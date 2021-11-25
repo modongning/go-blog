@@ -3,3 +3,6 @@
 2021-11-25T16:02:56.001862+08:00	INFO	apis/article.go:20	PageQuery
 2021-11-25T16:02:56.030181+08:00	INFO	gorm/gorm.go:44	[32m[/Users/modongning/Documents/go-workspace/go-blog/app/service/article.go:30 %!s(float64=12.173153) %!s(int64=10) SELECT a.* FROM tb_article a left join tb_article_category ac on a.category = ac.id LIMIT 10 OFFSET 30]
 [0m[33m[%!f(MISSING)ms] [34;1m[rows:%!v(MISSING)][0m %!s(MISSING)
+2021-11-25 18:10:32.112511	INFO	logger/logger.go:97	PageQuery
+2021-11-25 18:10:32.112511	INFO	gorm/gorm.go:44	[32m[/Users/modongning/Documents/go-workspace/go-blog/app/service/article.go:30 %!s(float64=94.203028) %!s(int64=46) SELECT a.* FROM tb_article a left join tb_article_category ac on a.category = ac.id ]
+[0m[33m[%!f(MISSING)ms] [34;1m[rows:%!v(MISSING)][0m %!s(MISSING)

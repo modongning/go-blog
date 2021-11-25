@@ -5,10 +5,10 @@ import (
 	"com.otoomo.morningblog-go/app/service"
 	"com.otoomo.morningblog-go/app/service/dto"
 	cdto "com.otoomo.morningblog-go/common/dto"
-	"com.otoomo.morningblog-go/global"
 	"com.otoomo.morningblog-go/sdk"
 	"encoding/json"
 	"github.com/gin-gonic/gin"
+	"github.com/modongning/gocommon/logger"
 	"log"
 	"strconv"
 )
@@ -17,7 +17,8 @@ type Article struct {
 }
 
 func (a *Article) PageQuery(c *gin.Context) {
-	global.MyLog.Info("PageQuery")
+	logger.Info("PageQuery")
+
 	article := service.Article{}
 	article.Orm = sdk.Application.GetDB()
 
